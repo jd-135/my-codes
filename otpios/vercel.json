@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/otp", "dest": "/api/otp.js" },
+    { "src": "/.netlify/functions/otp", "dest": "/api/otp.js" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
